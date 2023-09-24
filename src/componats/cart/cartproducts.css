@@ -1,0 +1,78 @@
+.Image__th{
+    width: 80px;
+}
+.cart__item{
+    padding: 60px 0;
+}
+.h2__cart{
+    color: #212245;
+    text-align: center;
+    text-transform: capitalize;
+}
+.btn__ADDtocart{
+    outline: none;
+    border: none;
+    background-color: #df2020;
+    color: #fff;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.btn__ADD{
+    display: flex; 
+    align-items: center;
+    gap: 1rem;
+}
+.btn__ADDtocart a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.btn__ADDtocart__1{
+    background-color: #212245;
+    padding: 6px 10px;
+}
+.h6__price{
+    font-size: 22px;
+    color: #212245;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.h6__price span{
+    font-size: 35px;
+    color: #df2020;
+}
+.ppp{
+    color: #212245;
+}
+@media (max-width:600px) {
+    .text__cart{
+        text-align: center;
+    }
+    .btn__ADD{
+        text-align: center !important;
+        justify-content: center;
+
+    }
+    .btn__ADDtocart{
+        padding: 5px 8px;
+        font-size: 14px;
+
+    }
+    .btn__ADDtocart a{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .table{
+        width: 100% !important;
+    }
+    .Image__th{
+        width: 50px;
+    }
+    .th__head{
+        font-weight: 500 !important;
+        font-size: 12px !important;
+    }
+}

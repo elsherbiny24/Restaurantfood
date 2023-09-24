@@ -1,0 +1,18 @@
+.div__logo{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+.h6h6{
+  color: #212245;
+  font-weight: 600;
+  font-size: 20px;
+}
+.img__logo{
+  width: 80px;
+  
+}

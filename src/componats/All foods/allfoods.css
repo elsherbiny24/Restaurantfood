@@ -1,0 +1,56 @@
+.all__foods{
+    width: 100%;
+     padding-top: 100px;
+     min-height: 100vh;
+     padding-bottom: 40px;
+}
+.search__input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 10px;
+    border: 1px solid #fde4e4;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.search__input input{
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.search__input input:focus{
+    outline: none;
+    border: none;
+}
+.product__found{
+    font-size: 30px;
+    padding-top: 70px;
+    color: #212245;
+}
+.paginate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    margin-top: 50px !important;
+}
+.paginate a{
+    padding: 5px 13px;
+    background-color: #df2020;
+    color: #fff !important;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.active__page a{
+    background: #212245 !important;
+    color: #fff !important;
+    border-radius: 5px;
+    z-index: 22;
+}

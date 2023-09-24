@@ -1,0 +1,41 @@
+.sec__login{
+    min-height: 50vh;
+    width: 100%;
+    padding: 60px 0;
+    
+}
+
+.login{
+    background-color: #fde4e4;
+    max-width:350px ;
+    min-height: 250px;
+    margin: auto;
+    padding: 20px 20px;
+    position: relative;
+    border-radius: 8px;
+}
+.input1{
+   
+}
+.input1 input{
+    width: 95%;
+    padding: 10px; 
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #9999;
+    margin-bottom: 30px;
+}
+.login .btn__log{
+    border:  none;
+    outline: none;
+    color: #fff;
+    background: #df2020;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: auto !important;
+    position: absolute;
+    left: 40%;
+    margin-left: -100px;
+    cursor: pointer;
+}
